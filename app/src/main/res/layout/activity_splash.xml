@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SplashActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_40dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="Welcome to our Olline phone shop"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_200dp"
+        android:layout_marginTop="@dimen/size_100dp"
+        android:src="@drawable/splash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="50dp"
+        android:elevation="@dimen/size_4dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_16sp"
+        app:cornerRadius="@dimen/size_20dp"
+       app:iconPadding="@dimen/size_20dp"
+
+        app:icon="@drawable/ic_login_2"
+        app:layout_constraintEnd_toStartOf="@+id/registratsion_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registratsion_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/size_60dp"
+        android:layout_marginEnd="@dimen/size_20dp"
+        android:text="Registration"
+        android:textAllCaps="false"
+        android:textSize="@dimen/text_16sp"
+        app:cornerRadius="@dimen/size_20dp"
+        android:elevation="@dimen/size_4dp"
+        app:icon="@drawable/ic_registration"
+        app:layout_constraintBottom_toBottomOf="@+id/login_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/login_btn"
+        />
+
+    <TextView
+
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_60dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="center"
+        android:text="We are glad you chose us. We hope you will achieve your dreams with us"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_btn" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleX=".5"
+        android:scaleY=".5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "76556336369",
+    "project_id": "telefonsavdo-7730e",
+    "storage_bucket": "telefonsavdo-7730e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76556336369:android:785477c9db99f91e4f3d50",
+        "android_client_info": {
+          "package_name": "com.example.telefonsavdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76556336369-r4ckfi97b1budnnimbr24fa9p1d18e9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsf9IsLKlZMmg72EyIJNCrXLTteOXVG6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76556336369-r4ckfi97b1budnnimbr24fa9p1d18e9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
